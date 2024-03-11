@@ -14,6 +14,8 @@ jobs:
         org: ["morganstanley","morganstanley-labs"]
 
     steps:
+    - uses: actions/checkout@v4
+    
     - name: Run stale_repos tool
       id: stale-repos
       uses: github/stale-repos@v1
