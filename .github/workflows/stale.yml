@@ -21,8 +21,6 @@ jobs:
         start_month=$(date -d "this month" "+%b %Y")
         echo "START_MONTH=$start_month" >> "$GITHUB_ENV"
     
-    - uses: actions/checkout@v4
-
     - name: Run stale_repos tool
       id: stale-repos
       uses: github/stale-repos@v1
@@ -45,7 +43,12 @@ jobs:
             for (const repo of repos) {
               bodyText += `|${repo.daysInactive}|${repo.url}|\n`
             }
-
-            console.log(bodyText);
+            const issue = await github.rest.issues.create({
+              owner: 'morganstanley',
+              repo: 'ospo',
+              title: 'Stale repo report: ${{ env.START_MONTH }} - ${{ matrix.org }}',
+              body: bodyText,
+            });
+            console.log(issue);
           }
         github-token: ${{ secrets.GH_TOKEN }}
