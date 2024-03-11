@@ -1,0 +1,19 @@
+{
+  "github.com": {
+    "morganstanley": {
+      "included": [
+        "desktopJS",
+        "ts-mocking-bird",
+        "dotnet-please",
+        "Crossroads",
+        "ComposeUI",
+        "eslint-plugin-externalincludes"
+      ],
+      "excluded": []
+    },
+    "morganstanley-labs": {
+      "included": [],
+      "excluded": []
+    }
+  }
+}
