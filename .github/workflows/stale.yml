@@ -41,19 +41,11 @@ jobs:
         script: |
           const repos = ${{ steps.stale-repos.outputs.inactiveRepos }}
           if (repos) {
-            let bodyText = '|Days|Project|\\n|---|-------|\\n'
+            let bodyText = '|Days|Project|\n|---|-------|\n'
             for (const repo of repos) {
-              bodyText += `|${repo.daysInactive}|${repo.url}|\\n`
+              bodyText += `|${repo.daysInactive}|${repo.url}|\n`
             }
-            /*
-            const issue = await github.rest.issues.create({
-              owner: 'morganstanley',
-              repo: 'ospo',
-              title: 'Stale repo report: ${{ env.START_MONTH }} - ${{ matrix.org }}',
-              body: bodyText,
-            });
-            console.log(issue);
-            */
+
             console.log(bodyText);
           }
-          github-token: ${{ secrets.GH_TOKEN }}
+        github-token: ${{ secrets.GH_TOKEN }}
