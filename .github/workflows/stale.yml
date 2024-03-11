@@ -13,6 +13,7 @@ jobs:
       matrix:
         org: ["morganstanley","morganstanley-labs"]
 
+    steps:
     - name: Run stale_repos tool
       id: stale-repos
       uses: github/stale-repos@v1
