@@ -36,8 +36,8 @@ jobs:
           for (const repo of repos) {
             console.log(repo);
             const issue = await github.rest.issues.create({
-              owner: 'morganstanley',
-              repo: 'ospo',
+              owner: 'bingenito',
+              repo: 'scorecards',
               title: 'Stale repo ' + repo.url,
               body: 'This repo has been stale for ' + repo.daysInactive + ' days. Please contact the owner to make it active again.',
             });
