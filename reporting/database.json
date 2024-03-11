@@ -1,54 +1,8 @@
 {
   "github.com": {
     "morganstanley": {
-      "eslint-plugin-externalincludes": {
-        "previous": [],
-        "current": {
-          "score": 7.8,
-          "date": "2024-03-09T13:07:52Z",
-          "commit": "1daa24d376075c08ff6c76142724cfc523026dfc"
-        }
-      },
-      "Crossroads": {
-        "previous": [],
-        "current": {
-          "score": 7.5,
-          "date": "2024-03-06T13:27:59Z",
-          "commit": "54b3923fb58280a06c8da30409721e513fc877f8"
-        }
-      },
-      "dotnet-please": {
-        "previous": [],
-        "current": {
-          "score": 8.9,
-          "date": "2024-03-08T15:49:26Z",
-          "commit": "1dd88194617baf392d45a23e3723a8be9fd7c1d3"
-        }
-      },
-      "ComposeUI": {
-        "previous": [],
-        "current": {
-          "score": 7.6,
-          "date": "2024-03-11T15:49:41Z",
-          "commit": "01883627a0f0d7d7f8d0247c2ae7917beabe1066"
-        }
-      },
-      "desktopJS": {
-        "previous": [],
-        "current": {
-          "score": 8.1,
-          "date": "2024-03-08T16:34:21Z",
-          "commit": "b563282d6ea20476c45633e772c6604fc38a5bbc"
-        }
-      },
-      "ts-mocking-bird": {
-        "previous": [],
-        "current": {
-          "score": 4.8,
-          "date": "2024-03-04",
-          "commit": "f7825fcf2c1bf5de63bada4e6c890e5dbeb0ca22"
-        }
-      }
+    },
+    "morganstanley-labs": {
     }
   }
 }
