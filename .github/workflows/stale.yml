@@ -15,7 +15,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    
+
     - name: Run stale_repos tool
       id: stale-repos
       uses: github/stale-repos@v1
@@ -29,15 +29,15 @@ jobs:
 
     - name: Print output of stale_repos tool
       run: echo "${{ steps.stale-repos.outputs.inactiveRepos }}"
-    - uses: actions/github-script@v7
+    - uses: actions/github-script@v6
       with:
         script: |
           const repos = ${{ steps.stale-repos.outputs.inactiveRepos }}
           for (const repo of repos) {
             console.log(repo);
             const issue = await github.rest.issues.create({
-              owner: 'bingenito',
-              repo: 'scorecards',
+              owner: 'morganstanley',
+              repo: 'ospo',
               title: 'Stale repo ' + repo.url,
               body: 'This repo has been stale for ' + repo.daysInactive + ' days. Please contact the owner to make it active again.',
             });
