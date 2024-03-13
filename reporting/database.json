@@ -2,10 +2,16 @@
   "github.com": {
     "morganstanley": {
       "eslint-plugin-externalincludes": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 7.8,
+            "date": "2024-03-09T13:07:52Z",
+            "commit": "1daa24d376075c08ff6c76142724cfc523026dfc"
+          }
+        ],
         "current": {
-          "score": 7.8,
-          "date": "2024-03-09T13:07:52Z",
+          "score": 8.1,
+          "date": "2024-03-13T13:26:54Z",
           "commit": "1daa24d376075c08ff6c76142724cfc523026dfc"
         }
       },
@@ -26,10 +32,16 @@
         }
       },
       "Crossroads": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 7.5,
+            "date": "2024-03-06T13:27:59Z",
+            "commit": "54b3923fb58280a06c8da30409721e513fc877f8"
+          }
+        ],
         "current": {
-          "score": 7.5,
-          "date": "2024-03-06T13:27:59Z",
+          "score": 7.7,
+          "date": "2024-03-13T13:28:03Z",
           "commit": "54b3923fb58280a06c8da30409721e513fc877f8"
         }
       },
