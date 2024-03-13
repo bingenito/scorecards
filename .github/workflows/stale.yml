@@ -1,54 +1,30 @@
-name: Stale Repo Identifier
+name: stale repo identifier
 
 on:
   workflow_dispatch:
   schedule:
     - cron: '3 2 1 * *'
 
+permissions:
+    contents: read
+
 jobs:
   build:
     name: stale repo identifier
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        org: ["morganstanley","morganstanley-labs"]
+
+    permissions:
+      contents: read
+      issues: write
 
     steps:
-    - name: Get dates
-      shell: bash
-      run: |
-        # Calculate the name of the previous month
-        start_month=$(date -d "this month" "+%b %Y")
-        echo "START_MONTH=$start_month" >> "$GITHUB_ENV"
-    
+    - uses: actions/checkout@v3
+
     - name: Run stale_repos tool
-      id: stale-repos
       uses: github/stale-repos@v1
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        ORGANIZATION: ${{ matrix.org }}
-        EXEMPT_REPOS: ".github,ospo,morganstanley.github.io"
+        ORGANIZATION: "morganstanley"
         EXEMPT_TOPICS: "keep,template"
-        INACTIVE_DAYS: 180
+        INACTIVE_DAYS: 365
         ACTIVITY_METHOD: "pushed"
-
-    - name: Print output of stale_repos tool
-      run: echo "${{ steps.stale-repos.outputs.inactiveRepos }}"
-    - uses: actions/github-script@v7
-      with:
-        script: |
-          const repos = ${{ steps.stale-repos.outputs.inactiveRepos }}
-          if (repos) {
-            let bodyText = '|Days|Project|\n|---|-------|\n'
-            for (const repo of repos) {
-              bodyText += `|${repo.daysInactive}|${repo.url}|\n`
-            }
-            const issue = await github.rest.issues.create({
-              owner: 'morganstanley',
-              repo: 'ospo',
-              title: 'Stale repo report: ${{ env.START_MONTH }} - ${{ matrix.org }}',
-              body: bodyText,
-            });
-            console.log(issue);
-          }
-        github-token: ${{ secrets.GH_TOKEN }}
