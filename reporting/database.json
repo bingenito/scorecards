@@ -34,10 +34,16 @@
         }
       },
       "ComposeUI": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 7.6,
+            "date": "2024-03-11T15:49:41Z",
+            "commit": "01883627a0f0d7d7f8d0247c2ae7917beabe1066"
+          }
+        ],
         "current": {
-          "score": 7.6,
-          "date": "2024-03-11T15:49:41Z",
+          "score": 7.7,
+          "date": "2024-03-12T17:30:30Z",
           "commit": "01883627a0f0d7d7f8d0247c2ae7917beabe1066"
         }
       },
