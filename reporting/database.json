@@ -51,12 +51,17 @@
             "score": 7.6,
             "date": "2024-03-11T15:49:41Z",
             "commit": "01883627a0f0d7d7f8d0247c2ae7917beabe1066"
+          },
+          {
+            "score": 7.7,
+            "date": "2024-03-12T17:30:30Z",
+            "commit": "01883627a0f0d7d7f8d0247c2ae7917beabe1066"
           }
         ],
         "current": {
-          "score": 7.7,
-          "date": "2024-03-12T17:30:30Z",
-          "commit": "01883627a0f0d7d7f8d0247c2ae7917beabe1066"
+          "score": 7.5,
+          "date": "2024-03-18T11:02:21Z",
+          "commit": "60df0c4e6e0600687a7d36a33ade40aa577078ae"
         }
       },
       "ts-mocking-bird": {
