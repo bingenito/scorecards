@@ -47,12 +47,17 @@
             "score": 7.7,
             "date": "2024-03-13T13:28:03Z",
             "commit": "54b3923fb58280a06c8da30409721e513fc877f8"
+          },
+          {
+            "score": 7.4,
+            "date": "2024-03-22T19:16:23Z",
+            "commit": "d7d2ce7fdc4a43014dcda07e0b2c6667fc17b674"
           }
         ],
         "current": {
-          "score": 7.4,
-          "date": "2024-03-22T19:16:23Z",
-          "commit": "d7d2ce7fdc4a43014dcda07e0b2c6667fc17b674"
+          "score": 7.3,
+          "date": "2024-03-29T19:21:14Z",
+          "commit": "d018d82947353feac9f086067ea160c081f270e1"
         }
       },
       "ComposeUI": {
@@ -66,12 +71,17 @@
             "score": 7.7,
             "date": "2024-03-12T17:30:30Z",
             "commit": "01883627a0f0d7d7f8d0247c2ae7917beabe1066"
+          },
+          {
+            "score": 7.5,
+            "date": "2024-03-18T11:02:21Z",
+            "commit": "60df0c4e6e0600687a7d36a33ade40aa577078ae"
           }
         ],
         "current": {
-          "score": 7.5,
-          "date": "2024-03-18T11:02:21Z",
-          "commit": "60df0c4e6e0600687a7d36a33ade40aa577078ae"
+          "score": 7.8,
+          "date": "2024-03-27T16:00:22Z",
+          "commit": "5d110bea435f750afa1cb4ecd13a9d6b8ad745de"
         }
       },
       "ts-mocking-bird": {
