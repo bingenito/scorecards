@@ -21,19 +21,31 @@
         }
       },
       "desktopJS": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 8.1,
+            "date": "2024-03-08T16:34:21Z",
+            "commit": "b563282d6ea20476c45633e772c6604fc38a5bbc"
+          }
+        ],
         "current": {
-          "score": 8.1,
-          "date": "2024-03-08T16:34:21Z",
-          "commit": "b563282d6ea20476c45633e772c6604fc38a5bbc"
+          "score": 7.9,
+          "date": "2024-04-03T13:28:26Z",
+          "commit": "e0ff564e636e807153cfc820127164a23528daed"
         }
       },
       "dotnet-please": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 8.9,
+            "date": "2024-03-08T15:49:26Z",
+            "commit": "1dd88194617baf392d45a23e3723a8be9fd7c1d3"
+          }
+        ],
         "current": {
-          "score": 8.9,
-          "date": "2024-03-08T15:49:26Z",
-          "commit": "1dd88194617baf392d45a23e3723a8be9fd7c1d3"
+          "score": 9,
+          "date": "2024-04-02T07:25:30Z",
+          "commit": "345ec5eab6f6c958a4ffb8cf24e6fb6a8da2979a"
         }
       },
       "Crossroads": {
@@ -76,12 +88,17 @@
             "score": 7.5,
             "date": "2024-03-18T11:02:21Z",
             "commit": "60df0c4e6e0600687a7d36a33ade40aa577078ae"
+          },
+          {
+            "score": 7.8,
+            "date": "2024-03-27T16:00:22Z",
+            "commit": "5d110bea435f750afa1cb4ecd13a9d6b8ad745de"
           }
         ],
         "current": {
-          "score": 7.8,
-          "date": "2024-03-27T16:00:22Z",
-          "commit": "5d110bea435f750afa1cb4ecd13a9d6b8ad745de"
+          "score": 7.6,
+          "date": "2024-04-02T17:30:22Z",
+          "commit": "44fc77533ff9e0990e95fa68a14e3097dc659069"
         }
       },
       "ts-mocking-bird": {
