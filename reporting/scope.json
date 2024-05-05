@@ -7,7 +7,9 @@
         "dotnet-please",
         "Crossroads",
         "ComposeUI",
-        "eslint-plugin-externalincludes"
+        "eslint-plugin-externalincludes",
+        "testplan",
+        "message-broker"
       ],
       "excluded": []
     },
