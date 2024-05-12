@@ -132,11 +132,17 @@
         }
       },
       "ts-mocking-bird": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 4.8,
+            "date": "2024-03-04",
+            "commit": "f7825fcf2c1bf5de63bada4e6c890e5dbeb0ca22"
+          }
+        ],
         "current": {
-          "score": 4.8,
-          "date": "2024-03-04",
-          "commit": "f7825fcf2c1bf5de63bada4e6c890e5dbeb0ca22"
+          "score": 5.6,
+          "date": "2024-05-06",
+          "commit": "9c3be69cc26549a0a58a45a651f4a5608d2d1824"
         }
       },
       "message-broker": {
