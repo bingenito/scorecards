@@ -9,7 +9,8 @@
         "ComposeUI",
         "eslint-plugin-externalincludes",
         "testplan",
-        "message-broker"
+        "message-broker",
+        "needle"
       ],
       "excluded": []
     },
