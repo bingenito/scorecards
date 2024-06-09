@@ -128,12 +128,17 @@
             "score": 7.5,
             "date": "2024-04-11T13:13:16Z",
             "commit": "2b951cdaf9ca76f883fb29c10ea6af3dd219bcd6"
+          },
+          {
+            "score": 7.7,
+            "date": "2024-05-03T15:23:14Z",
+            "commit": "efe1b02025c3f62304fadf8853b6b30db288ff37"
           }
         ],
         "current": {
-          "score": 7.7,
-          "date": "2024-05-03T15:23:14Z",
-          "commit": "efe1b02025c3f62304fadf8853b6b30db288ff37"
+          "score": 7.8,
+          "date": "2024-06-04T17:29:52Z",
+          "commit": "aab57714ff749fe9394bfc0c53844b8025a058c8"
         }
       },
       "ts-mocking-bird": {
@@ -164,11 +169,17 @@
         }
       },
       "testplan": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 6.2,
+            "date": "2024-05-02T07:28:01Z",
+            "commit": "d3e46d6b8657308928486d5481f28a5272bdfe18"
+          }
+        ],
         "current": {
-          "score": 6.2,
-          "date": "2024-05-02T07:28:01Z",
-          "commit": "d3e46d6b8657308928486d5481f28a5272bdfe18"
+          "score": 6.3,
+          "date": "2024-06-06T05:53:51Z",
+          "commit": "5a1e45e1b16810feab863b3918d6c12be508da96"
         }
       },
       "needle": {
