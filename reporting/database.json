@@ -99,12 +99,17 @@
             "score": 7.3,
             "date": "2024-03-29T19:21:14Z",
             "commit": "d018d82947353feac9f086067ea160c081f270e1"
+          },
+          {
+            "score": 7.2,
+            "date": "2024-06-12T13:29:50Z",
+            "commit": "ef8726695174330c2579b3fa603c0d3b9ae72b11"
           }
         ],
         "current": {
-          "score": 7.2,
-          "date": "2024-06-12T13:29:50Z",
-          "commit": "ef8726695174330c2579b3fa603c0d3b9ae72b11"
+          "score": 7.3,
+          "date": "2024-06-21T22:47:00Z",
+          "commit": "7b7d11397db23e67b55782cf60812e0f4c7507c8"
         }
       },
       "ComposeUI": {
@@ -210,6 +215,14 @@
           "score": 5.5,
           "date": "2024-06-12T13:29:26Z",
           "commit": "8be415743c390ade27ad92cde18f17cbc486701d"
+        }
+      },
+      "Xpedite": {
+        "previous": [],
+        "current": {
+          "score": 4.4,
+          "date": "2024-06-21T15:47:00Z",
+          "commit": "af782fe018690f0a8e9727293b8f68bd7b283952"
         }
       }
     },

@@ -10,7 +10,8 @@
         "eslint-plugin-externalincludes",
         "testplan",
         "message-broker",
-        "needle"
+        "needle",
+        "Xpedite"
       ],
       "excluded": []
     },
