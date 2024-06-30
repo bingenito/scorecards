@@ -11,7 +11,8 @@
         "testplan",
         "message-broker",
         "needle",
-        "Xpedite"
+        "Xpedite",
+        "Plug-in-AppDynamics-Data-Source"
       ],
       "excluded": []
     },

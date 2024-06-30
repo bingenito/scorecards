@@ -148,12 +148,17 @@
             "score": 7.7,
             "date": "2024-05-03T15:23:14Z",
             "commit": "efe1b02025c3f62304fadf8853b6b30db288ff37"
+          },
+          {
+            "score": 7.8,
+            "date": "2024-06-04T17:29:52Z",
+            "commit": "aab57714ff749fe9394bfc0c53844b8025a058c8"
           }
         ],
         "current": {
-          "score": 7.8,
-          "date": "2024-06-04T17:29:52Z",
-          "commit": "aab57714ff749fe9394bfc0c53844b8025a058c8"
+          "score": 7.7,
+          "date": "2024-06-27T12:01:59Z",
+          "commit": "ddecc55ae9af2dcf273ab01da201e16a20fd6d1e"
         }
       },
       "ts-mocking-bird": {
@@ -223,6 +228,14 @@
           "score": 4.4,
           "date": "2024-06-21T15:47:00Z",
           "commit": "af782fe018690f0a8e9727293b8f68bd7b283952"
+        }
+      },
+      "Plug-in-AppDynamics-Data-Source": {
+        "previous": [],
+        "current": {
+          "score": 4.1,
+          "date": "2024-06-27T11:10:29Z",
+          "commit": "6c9ddd879187f222114050a4837c0e74d1cbaef9"
         }
       }
     },
