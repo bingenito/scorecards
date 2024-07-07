@@ -172,11 +172,16 @@
             "score": 5.6,
             "date": "2024-05-06",
             "commit": "9c3be69cc26549a0a58a45a651f4a5608d2d1824"
+          },
+          {
+            "score": 6,
+            "date": "2024-05-30T09:37:21Z",
+            "commit": "b0da5cdb8e2a473d2d910f103440a43430e465ca"
           }
         ],
         "current": {
-          "score": 6,
-          "date": "2024-05-30T09:37:21Z",
+          "score": 6.1,
+          "date": "2024-07-03T13:29:51Z",
           "commit": "b0da5cdb8e2a473d2d910f103440a43430e465ca"
         }
       },
@@ -223,11 +228,17 @@
         }
       },
       "Xpedite": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 4.4,
+            "date": "2024-06-21T15:47:00Z",
+            "commit": "af782fe018690f0a8e9727293b8f68bd7b283952"
+          }
+        ],
         "current": {
-          "score": 4.4,
-          "date": "2024-06-21T15:47:00Z",
-          "commit": "af782fe018690f0a8e9727293b8f68bd7b283952"
+          "score": 4.9,
+          "date": "2024-07-05T13:48:27Z",
+          "commit": "306e8801884d0838d8cd77ed3bd4991da71b7c85"
         }
       },
       "Plug-in-AppDynamics-Data-Source": {
@@ -236,6 +247,22 @@
           "score": 4.1,
           "date": "2024-06-27T11:10:29Z",
           "commit": "6c9ddd879187f222114050a4837c0e74d1cbaef9"
+        }
+      },
+      "modern-cpp-kafka": {
+        "previous": [],
+        "current": {
+          "score": 4.4,
+          "date": "2024-07-03T13:28:39Z",
+          "commit": "122678e881de94721458fd948f38e65366b68689"
+        }
+      },
+      "releaseherald": {
+        "previous": [],
+        "current": {
+          "score": 5.7,
+          "date": "2024-07-03T13:29:02Z",
+          "commit": "cef3f533b03f551ff0b68c7f9856f21008146d5d"
         }
       }
     },

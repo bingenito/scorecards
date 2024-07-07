@@ -12,7 +12,9 @@
         "message-broker",
         "needle",
         "Xpedite",
-        "Plug-in-AppDynamics-Data-Source"
+        "Plug-in-AppDynamics-Data-Source",
+        "modern-cpp-kafka",
+        "releaseherald"
       ],
       "excluded": []
     },
