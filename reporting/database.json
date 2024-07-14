@@ -242,11 +242,17 @@
         }
       },
       "Plug-in-AppDynamics-Data-Source": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 4.1,
+            "date": "2024-06-27T11:10:29Z",
+            "commit": "6c9ddd879187f222114050a4837c0e74d1cbaef9"
+          }
+        ],
         "current": {
-          "score": 4.1,
-          "date": "2024-06-27T11:10:29Z",
-          "commit": "6c9ddd879187f222114050a4837c0e74d1cbaef9"
+          "score": 4.6,
+          "date": "2024-07-10T17:25:45Z",
+          "commit": "358bb9ebe57ece961be43b43130789f15a48d5fe"
         }
       },
       "modern-cpp-kafka": {
@@ -263,6 +269,22 @@
           "score": 5.7,
           "date": "2024-07-03T13:29:02Z",
           "commit": "cef3f533b03f551ff0b68c7f9856f21008146d5d"
+        }
+      },
+      "binlog": {
+        "previous": [],
+        "current": {
+          "score": 4.7,
+          "date": "2024-07-10T13:30:30Z",
+          "commit": "6e699068aeacd46e1de48121abdb398ae2256652"
+        }
+      },
+      "gradle-plugin-application": {
+        "previous": [],
+        "current": {
+          "score": 3.8,
+          "date": "2024-07-10T16:59:19Z",
+          "commit": "dd07fac568c260bf17ad7ad0ac7bd9f1263e4ac1"
         }
       }
     },

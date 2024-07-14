@@ -14,7 +14,9 @@
         "Xpedite",
         "Plug-in-AppDynamics-Data-Source",
         "modern-cpp-kafka",
-        "releaseherald"
+        "releaseherald",
+        "binlog",
+        "gradle-plugin-application"
       ],
       "excluded": []
     },
