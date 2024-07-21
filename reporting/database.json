@@ -280,10 +280,16 @@
         }
       },
       "gradle-plugin-application": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 3.8,
+            "date": "2024-07-10T16:59:19Z",
+            "commit": "dd07fac568c260bf17ad7ad0ac7bd9f1263e4ac1"
+          }
+        ],
         "current": {
-          "score": 3.8,
-          "date": "2024-07-10T16:59:19Z",
+          "score": 3.9,
+          "date": "2024-07-17T13:29:28Z",
           "commit": "dd07fac568c260bf17ad7ad0ac7bd9f1263e4ac1"
         }
       }
