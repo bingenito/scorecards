@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: OpenSSF Scorecard Monitor
-        uses: ossf/scorecard-monitor@2.0.0-beta8
+        uses: ossf/scorecard-monitor@v2.0.0-beta8
         id: openssf-scorecard-monitor
         with:
           scope: reporting/scope.json
